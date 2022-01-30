@@ -1,0 +1,3 @@
+from getDataFromInstagramComments import getDataFromInstagramComments
+
+ig_data = getDataFromInstagramComments()
