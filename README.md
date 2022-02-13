@@ -1,4 +1,7 @@
 # SocialApp
 An app to help you connect with people. 
 
-Still under development...
+Frontend: React.JS
+Backend: Python Django 
+
+Project is still under development...
