@@ -2,11 +2,13 @@ import string
 import traceback
 from selenium import webdriver
 import chromedriver_autoinstaller
+import ssl
 
 
 class BrowserManager:
     def __init__(self, website):
         self.website = website
+        ssl._create_default_https_context = ssl._create_unverified_context
 
     def __enter__(self):
         self.install_chrome_driver()
